@@ -1,0 +1,1496 @@
+[
+  {
+    "file": "javascript/sql_injection_user_lookup.js",
+    "language": "JavaScript",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "js/sql-injection",
+    "duplicate_group": "js-sqli-001",
+    "title": "SQL Injection",
+    "description": "User lookup query concatenates a request parameter into SQL",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "javascript/sql_injection_order_search.js",
+    "language": "JavaScript",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "js/sql-injection",
+    "duplicate_group": "js-sqli-001",
+    "title": "SQL Injection",
+    "description": "Order search query concatenates a request parameter into SQL",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "javascript/sql_injection_report_filter.js",
+    "language": "JavaScript",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "js/sql-injection",
+    "duplicate_group": "js-sqli-001",
+    "title": "SQL Injection",
+    "description": "Report filter query concatenates a request parameter into SQL",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "javascript/code_injection_eval_admin.js",
+    "language": "JavaScript",
+    "severity": "Critical",
+    "cwe": "CWE-95",
+    "rule": "js/code-injection",
+    "duplicate_group": "js-code-001",
+    "title": "Code Injection",
+    "description": "Admin expression is evaluated from user input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "javascript/code_injection_eval_formula.js",
+    "language": "JavaScript",
+    "severity": "Critical",
+    "cwe": "CWE-95",
+    "rule": "js/code-injection",
+    "duplicate_group": "js-code-001",
+    "title": "Code Injection",
+    "description": "Formula expression is evaluated from user input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "javascript/code_injection_function_body.js",
+    "language": "JavaScript",
+    "severity": "Critical",
+    "cwe": "CWE-95",
+    "rule": "js/code-injection",
+    "duplicate_group": "js-code-001",
+    "title": "Code Injection",
+    "description": "Function body is constructed from user input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "javascript/path_injection_download.js",
+    "language": "JavaScript",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "js/path-injection",
+    "duplicate_group": "js-path-001",
+    "title": "Path Injection",
+    "description": "Download path is built from a request parameter",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "javascript/path_injection_template.js",
+    "language": "JavaScript",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "js/path-injection",
+    "duplicate_group": "js-path-001",
+    "title": "Path Injection",
+    "description": "Template path is built from a request parameter",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "javascript/path_injection_log_viewer.js",
+    "language": "JavaScript",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "js/path-injection",
+    "duplicate_group": "js-path-001",
+    "title": "Path Injection",
+    "description": "Log file path is built from a request parameter",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "javascript/xss_profile_render.js",
+    "language": "JavaScript",
+    "severity": "Medium",
+    "cwe": "CWE-79",
+    "rule": "js/xss",
+    "duplicate_group": "js-xss-001",
+    "title": "Cross-Site Scripting",
+    "description": "Profile text is written to innerHTML",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "javascript/xss_comment_preview.js",
+    "language": "JavaScript",
+    "severity": "Medium",
+    "cwe": "CWE-79",
+    "rule": "js/xss",
+    "duplicate_group": "js-xss-001",
+    "title": "Cross-Site Scripting",
+    "description": "Comment preview is written to document output",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "javascript/redos_email_validator.js",
+    "language": "JavaScript",
+    "severity": "Medium",
+    "cwe": "CWE-1333",
+    "rule": "js/redos",
+    "duplicate_group": "js-redos-001",
+    "title": "Regular Expression DoS",
+    "description": "Email validator uses a catastrophic backtracking pattern",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "7"
+  },
+  {
+    "file": "javascript/redos_slug_parser.js",
+    "language": "JavaScript",
+    "severity": "Medium",
+    "cwe": "CWE-1333",
+    "rule": "js/redos",
+    "duplicate_group": "js-redos-001",
+    "title": "Regular Expression DoS",
+    "description": "Slug parser uses a catastrophic backtracking pattern",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "7"
+  },
+  {
+    "file": "javascript/generated_sql_injection_report.js",
+    "language": "JavaScript",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "js/sql-injection",
+    "duplicate_group": "js-sqli-001",
+    "title": "SQL Injection",
+    "description": "Generated report query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "javascript",
+    "classifications": [
+      "generated"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "typescript/xss_account_banner.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-79",
+    "rule": "js/xss",
+    "duplicate_group": "ts-xss-001",
+    "title": "DOM XSS",
+    "description": "Account banner writes query text to innerHTML",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "typescript/xss_search_title.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-79",
+    "rule": "js/xss",
+    "duplicate_group": "ts-xss-001",
+    "title": "DOM XSS",
+    "description": "Search title writes query text to document output",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "typescript/xss_notification_panel.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-79",
+    "rule": "js/xss",
+    "duplicate_group": "ts-xss-001",
+    "title": "DOM XSS",
+    "description": "Notification panel writes query text to outerHTML",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "typescript/redos_password_policy.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-1333",
+    "rule": "js/redos",
+    "duplicate_group": "ts-redos-001",
+    "title": "Regular Expression DoS",
+    "description": "Password policy uses a catastrophic backtracking pattern",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "7"
+  },
+  {
+    "file": "typescript/redos_route_matcher.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-1333",
+    "rule": "js/redos",
+    "duplicate_group": "ts-redos-001",
+    "title": "Regular Expression DoS",
+    "description": "Route matcher uses a catastrophic backtracking pattern",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "7"
+  },
+  {
+    "file": "typescript/redos_log_tokenizer.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-1333",
+    "rule": "js/redos",
+    "duplicate_group": "ts-redos-001",
+    "title": "Regular Expression DoS",
+    "description": "Log tokenizer uses a catastrophic backtracking pattern",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "7"
+  },
+  {
+    "file": "typescript/sql_injection_customer.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "js/sql-injection",
+    "duplicate_group": "ts-sqli-001",
+    "title": "SQL Injection",
+    "description": "Customer lookup query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "8"
+  },
+  {
+    "file": "typescript/sql_injection_invoice.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "js/sql-injection",
+    "duplicate_group": "ts-sqli-001",
+    "title": "SQL Injection",
+    "description": "Invoice lookup query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "8"
+  },
+  {
+    "file": "typescript/sql_injection_audit.ts",
+    "language": "TypeScript",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "js/sql-injection",
+    "duplicate_group": "ts-sqli-001",
+    "title": "SQL Injection",
+    "description": "Audit query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "8"
+  },
+  {
+    "file": "typescript/path_injection_import.ts",
+    "language": "TypeScript",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "js/path-injection",
+    "duplicate_group": "ts-path-001",
+    "title": "Path Injection",
+    "description": "Import file path uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "typescript/path_injection_export.ts",
+    "language": "TypeScript",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "js/path-injection",
+    "duplicate_group": "ts-path-001",
+    "title": "Path Injection",
+    "description": "Export file path uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "typescript/code_injection_calculator.ts",
+    "language": "TypeScript",
+    "severity": "Critical",
+    "cwe": "CWE-95",
+    "rule": "js/code-injection",
+    "duplicate_group": "ts-code-001",
+    "title": "Code Injection",
+    "description": "Calculator expression is evaluated from user input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "typescript/code_injection_rules_engine.ts",
+    "language": "TypeScript",
+    "severity": "Critical",
+    "cwe": "CWE-95",
+    "rule": "js/code-injection",
+    "duplicate_group": "ts-code-001",
+    "title": "Code Injection",
+    "description": "Rules engine function is built from user input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-frontend-web",
+    "owner_path": "typescript",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "6"
+  },
+  {
+    "file": "python/sql_injection_user_lookup.py",
+    "language": "Python",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "py/sql-injection",
+    "duplicate_group": "py-sqli-001",
+    "title": "SQL Injection",
+    "description": "User lookup SQL concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "python/sql_injection_ticket_search.py",
+    "language": "Python",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "py/sql-injection",
+    "duplicate_group": "py-sqli-001",
+    "title": "SQL Injection",
+    "description": "Ticket search SQL formats request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "python/sql_injection_report_filter.py",
+    "language": "Python",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "py/sql-injection",
+    "duplicate_group": "py-sqli-001",
+    "title": "SQL Injection",
+    "description": "Report SQL interpolates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "python/command_injection_converter.py",
+    "language": "Python",
+    "severity": "High",
+    "cwe": "CWE-78",
+    "rule": "py/command-injection",
+    "duplicate_group": "py-cmd-001",
+    "title": "Command Injection",
+    "description": "Converter command runs with shell=True",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "python/command_injection_backup.py",
+    "language": "Python",
+    "severity": "High",
+    "cwe": "CWE-78",
+    "rule": "py/command-injection",
+    "duplicate_group": "py-cmd-001",
+    "title": "Command Injection",
+    "description": "Backup command runs with shell=True",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "python/command_injection_archive.py",
+    "language": "Python",
+    "severity": "High",
+    "cwe": "CWE-78",
+    "rule": "py/command-injection",
+    "duplicate_group": "py-cmd-001",
+    "title": "Command Injection",
+    "description": "Archive command runs with shell=True",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "python/path_traversal_download.py",
+    "language": "Python",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "py/path-injection",
+    "duplicate_group": "py-path-001",
+    "title": "Path Traversal",
+    "description": "Download path is built from request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "python/path_traversal_template.py",
+    "language": "Python",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "py/path-injection",
+    "duplicate_group": "py-path-001",
+    "title": "Path Traversal",
+    "description": "Template path is built from request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "python/path_traversal_log_viewer.py",
+    "language": "Python",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "py/path-injection",
+    "duplicate_group": "py-path-001",
+    "title": "Path Traversal",
+    "description": "Log path is built from request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "python/xss_profile_page.py",
+    "language": "Python",
+    "severity": "Medium",
+    "cwe": "CWE-79",
+    "rule": "py/reflective-xss",
+    "duplicate_group": "py-xss-001",
+    "title": "Reflective XSS",
+    "description": "Profile page renders request input without escaping",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "python/xss_search_page.py",
+    "language": "Python",
+    "severity": "Medium",
+    "cwe": "CWE-79",
+    "rule": "py/reflective-xss",
+    "duplicate_group": "py-xss-001",
+    "title": "Reflective XSS",
+    "description": "Search page renders request input without escaping",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "python/weak_hash_password_reset.py",
+    "language": "Python",
+    "severity": "Medium",
+    "cwe": "CWE-916",
+    "rule": "py/weak-sensitive-data-hashing",
+    "duplicate_group": "py-hash-001",
+    "title": "Weak Hash",
+    "description": "Password reset token uses MD5",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "python/weak_hash_api_key.py",
+    "language": "Python",
+    "severity": "Medium",
+    "cwe": "CWE-916",
+    "rule": "py/weak-sensitive-data-hashing",
+    "duplicate_group": "py-hash-001",
+    "title": "Weak Hash",
+    "description": "API key digest uses SHA1",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "python/sql_injection_test_fixture.py",
+    "language": "Python",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "py/sql-injection",
+    "duplicate_group": "py-sqli-001",
+    "title": "SQL Injection",
+    "description": "Test fixture query interpolates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-backend-python",
+    "owner_path": "python",
+    "classifications": [
+      "test"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "java/xxe_invoice_parser.java",
+    "language": "Java",
+    "severity": "Medium",
+    "cwe": "CWE-611",
+    "rule": "java/xxe",
+    "duplicate_group": "java-xxe-001",
+    "title": "XXE",
+    "description": "Invoice XML parser allows external entities",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "java/xxe_profile_import.java",
+    "language": "Java",
+    "severity": "Medium",
+    "cwe": "CWE-611",
+    "rule": "java/xxe",
+    "duplicate_group": "java-xxe-001",
+    "title": "XXE",
+    "description": "Profile XML parser allows external entities",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "java/xxe_partner_feed.java",
+    "language": "Java",
+    "severity": "Medium",
+    "cwe": "CWE-611",
+    "rule": "java/xxe",
+    "duplicate_group": "java-xxe-001",
+    "title": "XXE",
+    "description": "Partner feed XML parser allows external entities",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "java/exec_tainted_diagnostics.java",
+    "language": "Java",
+    "severity": "Critical",
+    "cwe": "CWE-78",
+    "rule": "java/exec-tainted-command",
+    "duplicate_group": "java-exec-001",
+    "title": "Command Injection",
+    "description": "Diagnostics command uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "java/exec_tainted_archive.java",
+    "language": "Java",
+    "severity": "Critical",
+    "cwe": "CWE-78",
+    "rule": "java/exec-tainted-command",
+    "duplicate_group": "java-exec-001",
+    "title": "Command Injection",
+    "description": "Archive command uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "java/exec_tainted_image_tool.java",
+    "language": "Java",
+    "severity": "Critical",
+    "cwe": "CWE-78",
+    "rule": "java/exec-tainted-command",
+    "duplicate_group": "java-exec-001",
+    "title": "Command Injection",
+    "description": "Image tool command uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "java/sql_injection_customer.java",
+    "language": "Java",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "java/sql-injection",
+    "duplicate_group": "java-sqli-001",
+    "title": "SQL Injection",
+    "description": "Customer query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "13"
+  },
+  {
+    "file": "java/sql_injection_order.java",
+    "language": "Java",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "java/sql-injection",
+    "duplicate_group": "java-sqli-001",
+    "title": "SQL Injection",
+    "description": "Order query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "13"
+  },
+  {
+    "file": "java/sql_injection_audit.java",
+    "language": "Java",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "java/sql-injection",
+    "duplicate_group": "java-sqli-001",
+    "title": "SQL Injection",
+    "description": "Audit query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "13"
+  },
+  {
+    "file": "java/path_traversal_download.java",
+    "language": "Java",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "java/path-injection",
+    "duplicate_group": "java-path-001",
+    "title": "Path Traversal",
+    "description": "Download path uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "11"
+  },
+  {
+    "file": "java/path_traversal_template.java",
+    "language": "Java",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "java/path-injection",
+    "duplicate_group": "java-path-001",
+    "title": "Path Traversal",
+    "description": "Template path uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "11"
+  },
+  {
+    "file": "java/ldap_injection_people.java",
+    "language": "Java",
+    "severity": "High",
+    "cwe": "CWE-90",
+    "rule": "java/ldap-injection",
+    "duplicate_group": "java-ldap-001",
+    "title": "LDAP Injection",
+    "description": "People lookup filter concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "11"
+  },
+  {
+    "file": "java/ldap_injection_groups.java",
+    "language": "Java",
+    "severity": "High",
+    "cwe": "CWE-90",
+    "rule": "java/ldap-injection",
+    "duplicate_group": "java-ldap-001",
+    "title": "LDAP Injection",
+    "description": "Group lookup filter concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "11"
+  },
+  {
+    "file": "java/unsafe_deserialization_request.java",
+    "language": "Java",
+    "severity": "High",
+    "cwe": "CWE-502",
+    "rule": "java/unsafe-deserialization",
+    "duplicate_group": "java-deser-001",
+    "title": "Unsafe Deserialization",
+    "description": "Request body is deserialized without validation",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "9"
+  },
+  {
+    "file": "java/unsafe_deserialization_cookie.java",
+    "language": "Java",
+    "severity": "High",
+    "cwe": "CWE-502",
+    "rule": "java/unsafe-deserialization",
+    "duplicate_group": "java-deser-001",
+    "title": "Unsafe Deserialization",
+    "description": "Cookie payload is deserialized without validation",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "13"
+  },
+  {
+    "file": "java/unsafe_deserialization_cache.java",
+    "language": "Java",
+    "severity": "High",
+    "cwe": "CWE-502",
+    "rule": "java/unsafe-deserialization",
+    "duplicate_group": "java-deser-001",
+    "title": "Unsafe Deserialization",
+    "description": "Cache payload is deserialized without validation",
+    "owner_team": "@spgi-project-atom-sandbox/mock-services-java",
+    "owner_path": "java",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "12"
+  },
+  {
+    "file": "csharp/sql_injection_customer.cs",
+    "language": "C#",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "cs/sql-injection",
+    "duplicate_group": "cs-sqli-001",
+    "title": "SQL Injection",
+    "description": "Customer query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "csharp/sql_injection_invoice.cs",
+    "language": "C#",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "cs/sql-injection",
+    "duplicate_group": "cs-sqli-001",
+    "title": "SQL Injection",
+    "description": "Invoice query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "csharp/sql_injection_audit.cs",
+    "language": "C#",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "cs/sql-injection",
+    "duplicate_group": "cs-sqli-001",
+    "title": "SQL Injection",
+    "description": "Audit query concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "csharp/hardcoded_secret_database.cs",
+    "language": "C#",
+    "severity": "High",
+    "cwe": "CWE-798",
+    "rule": "cs/hardcoded-credentials",
+    "duplicate_group": "cs-secret-001",
+    "title": "Hardcoded Credentials",
+    "description": "Database password is hardcoded",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "8"
+  },
+  {
+    "file": "csharp/hardcoded_secret_api.cs",
+    "language": "C#",
+    "severity": "High",
+    "cwe": "CWE-798",
+    "rule": "cs/hardcoded-credentials",
+    "duplicate_group": "cs-secret-001",
+    "title": "Hardcoded Credentials",
+    "description": "API token is hardcoded",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "8"
+  },
+  {
+    "file": "csharp/hardcoded_secret_storage.cs",
+    "language": "C#",
+    "severity": "High",
+    "cwe": "CWE-798",
+    "rule": "cs/hardcoded-credentials",
+    "duplicate_group": "cs-secret-001",
+    "title": "Hardcoded Credentials",
+    "description": "Storage key is hardcoded",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "8"
+  },
+  {
+    "file": "csharp/ldap_injection_people.cs",
+    "language": "C#",
+    "severity": "High",
+    "cwe": "CWE-90",
+    "rule": "cs/ldap-injection",
+    "duplicate_group": "cs-ldap-001",
+    "title": "LDAP Injection",
+    "description": "People lookup filter concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "csharp/ldap_injection_groups.cs",
+    "language": "C#",
+    "severity": "High",
+    "cwe": "CWE-90",
+    "rule": "cs/ldap-injection",
+    "duplicate_group": "cs-ldap-001",
+    "title": "LDAP Injection",
+    "description": "Group lookup filter concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "csharp/ldap_injection_roles.cs",
+    "language": "C#",
+    "severity": "High",
+    "cwe": "CWE-90",
+    "rule": "cs/ldap-injection",
+    "duplicate_group": "cs-ldap-001",
+    "title": "LDAP Injection",
+    "description": "Role lookup filter concatenates request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "csharp/path_traversal_download.cs",
+    "language": "C#",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "cs/path-injection",
+    "duplicate_group": "cs-path-001",
+    "title": "Path Traversal",
+    "description": "Download path uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "csharp/path_traversal_template.cs",
+    "language": "C#",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "cs/path-injection",
+    "duplicate_group": "cs-path-001",
+    "title": "Path Traversal",
+    "description": "Template path uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "csharp/weak_crypto_md5.cs",
+    "language": "C#",
+    "severity": "Medium",
+    "cwe": "CWE-327",
+    "rule": "cs/weak-crypto",
+    "duplicate_group": "cs-crypto-001",
+    "title": "Weak Cryptography",
+    "description": "MD5 is used for sensitive digesting",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "11"
+  },
+  {
+    "file": "csharp/weak_crypto_sha1.cs",
+    "language": "C#",
+    "severity": "Medium",
+    "cwe": "CWE-327",
+    "rule": "cs/weak-crypto",
+    "duplicate_group": "cs-crypto-001",
+    "title": "Weak Cryptography",
+    "description": "SHA1 is used for sensitive digesting",
+    "owner_team": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
+    "owner_path": "csharp",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "11"
+  },
+  {
+    "file": "go/open_redirect_login.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-601",
+    "rule": "go/unvalidated-url-redirection",
+    "duplicate_group": "go-redirect-001",
+    "title": "Open Redirect",
+    "description": "Login redirect target uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "go/open_redirect_logout.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-601",
+    "rule": "go/unvalidated-url-redirection",
+    "duplicate_group": "go-redirect-001",
+    "title": "Open Redirect",
+    "description": "Logout redirect target uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "go/open_redirect_invite.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-601",
+    "rule": "go/unvalidated-url-redirection",
+    "duplicate_group": "go-redirect-001",
+    "title": "Open Redirect",
+    "description": "Invite redirect target uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "10"
+  },
+  {
+    "file": "go/insecure_tls_client.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-295",
+    "rule": "go/insecure-tls",
+    "duplicate_group": "go-tls-001",
+    "title": "Insecure TLS",
+    "description": "HTTP client disables TLS certificate verification",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "12"
+  },
+  {
+    "file": "go/insecure_tls_transport.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-295",
+    "rule": "go/insecure-tls",
+    "duplicate_group": "go-tls-001",
+    "title": "Insecure TLS",
+    "description": "Transport disables TLS certificate verification",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "12"
+  },
+  {
+    "file": "go/insecure_tls_proxy.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-295",
+    "rule": "go/insecure-tls",
+    "duplicate_group": "go-tls-001",
+    "title": "Insecure TLS",
+    "description": "Proxy transport disables TLS certificate verification",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "12"
+  },
+  {
+    "file": "go/sql_injection_customer.go",
+    "language": "Go",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "go/sql-injection",
+    "duplicate_group": "go-sqli-001",
+    "title": "SQL Injection",
+    "description": "Customer query formats request input into SQL",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "14"
+  },
+  {
+    "file": "go/sql_injection_order.go",
+    "language": "Go",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "go/sql-injection",
+    "duplicate_group": "go-sqli-001",
+    "title": "SQL Injection",
+    "description": "Order query formats request input into SQL",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "14"
+  },
+  {
+    "file": "go/sql_injection_audit.go",
+    "language": "Go",
+    "severity": "Medium",
+    "cwe": "CWE-89",
+    "rule": "go/sql-injection",
+    "duplicate_group": "go-sqli-001",
+    "title": "SQL Injection",
+    "description": "Audit query formats request input into SQL",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "14"
+  },
+  {
+    "file": "go/path_traversal_download.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "go/path-injection",
+    "duplicate_group": "go-path-001",
+    "title": "Path Traversal",
+    "description": "Download path uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "14"
+  },
+  {
+    "file": "go/path_traversal_template.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-22",
+    "rule": "go/path-injection",
+    "duplicate_group": "go-path-001",
+    "title": "Path Traversal",
+    "description": "Template path uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "14"
+  },
+  {
+    "file": "go/command_injection_archive.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-78",
+    "rule": "go/command-injection",
+    "duplicate_group": "go-cmd-001",
+    "title": "Command Injection",
+    "description": "Archive command uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "13"
+  },
+  {
+    "file": "go/command_injection_converter.go",
+    "language": "Go",
+    "severity": "High",
+    "cwe": "CWE-78",
+    "rule": "go/command-injection",
+    "duplicate_group": "go-cmd-001",
+    "title": "Command Injection",
+    "description": "Converter command uses request input",
+    "owner_team": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "owner_path": "go",
+    "classifications": [
+      "source"
+    ],
+    "confidence": "high",
+    "target_repository": "spgi-project-atom-sandbox/codeql-test-comprehensive",
+    "line": "13"
+  }
+]
