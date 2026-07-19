@@ -1,0 +1,44 @@
+name: Unit Tests
+
+# Characterization tests for the vulnerable fixtures (TypeScript, C#, Go).
+# They assert the fixtures' intentional behavior; they do NOT fix the findings.
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  typescript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install
+      - run: npx jest
+
+  csharp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+      - run: dotnet test csharp/tests/FixtureTests.csproj
+
+  go:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+      # -mod=mod adds needed go.sum entries WITHOUT pruning the intentionally
+      # vulnerable (unused) requires from go.mod, so Dependabot findings remain.
+      - run: go test -mod=mod ./...
