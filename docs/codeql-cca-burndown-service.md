@@ -575,7 +575,7 @@ Store policy as code so each org or repo can tune automation without changing th
 Example:
 
 ```yaml
-org: spglobal-innersource
+org: example-innersource
 defaults:
   max_alerts_per_pr: 5
   max_files_per_pr: 5
@@ -610,7 +610,7 @@ repositories:
 
 ## Open Decisions
 
-1. Which org should be the first pilot: `spglobal-innersource`, `market-intelligence`, or an atom sandbox org?
+1. Which org should be the first pilot: `example-innersource`, `example-market-intel`, or an atom sandbox org?
 2. Is CCA expected to run in GitHub-hosted infrastructure or on existing self-hosted runner pools?
 3. What product ownership source should be authoritative: CODEOWNERS, repo custom properties, team mapping CSV, or another internal system?
 4. What is the initial severity scope: critical only, critical/high, or all security severity findings?

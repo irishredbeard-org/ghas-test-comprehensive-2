@@ -77,27 +77,27 @@ obj/
 .DS_Store
 '''
 
-CODEOWNERS = '''* @spgi-project-atom-sandbox/mock-security-team
-/javascript/ @spgi-project-atom-sandbox/mock-frontend-web
-/typescript/ @spgi-project-atom-sandbox/mock-frontend-web
-/python/ @spgi-project-atom-sandbox/mock-backend-python
-/java/ @spgi-project-atom-sandbox/mock-services-java
-/csharp/ @spgi-project-atom-sandbox/mock-enterprise-dotnet
-/go/ @spgi-project-atom-sandbox/mock-infrastructure-go
-/.github/ @spgi-project-atom-sandbox/mock-security-team
-/docs/ @spgi-project-atom-sandbox/mock-security-team
+CODEOWNERS = '''* @example-org/mock-security-team
+/javascript/ @example-org/mock-frontend-web
+/typescript/ @example-org/mock-frontend-web
+/python/ @example-org/mock-backend-python
+/java/ @example-org/mock-services-java
+/csharp/ @example-org/mock-enterprise-dotnet
+/go/ @example-org/mock-infrastructure-go
+/.github/ @example-org/mock-security-team
+/docs/ @example-org/mock-security-team
 '''
 
 OWNER_TEAM_BY_PATH = {
-    "javascript": "@spgi-project-atom-sandbox/mock-frontend-web",
-    "typescript": "@spgi-project-atom-sandbox/mock-frontend-web",
-    "python": "@spgi-project-atom-sandbox/mock-backend-python",
-    "java": "@spgi-project-atom-sandbox/mock-services-java",
-    "csharp": "@spgi-project-atom-sandbox/mock-enterprise-dotnet",
-    "go": "@spgi-project-atom-sandbox/mock-infrastructure-go",
+    "javascript": "@example-org/mock-frontend-web",
+    "typescript": "@example-org/mock-frontend-web",
+    "python": "@example-org/mock-backend-python",
+    "java": "@example-org/mock-services-java",
+    "csharp": "@example-org/mock-enterprise-dotnet",
+    "go": "@example-org/mock-infrastructure-go",
 }
 
-TARGET_REPOSITORY = "spgi-project-atom-sandbox/codeql-test-comprehensive"
+TARGET_REPOSITORY = "example-org/codeql-test-comprehensive"
 
 FIXTURES = [
     # JavaScript: 14
@@ -209,7 +209,7 @@ def owner_path(file_path: str) -> str:
 
 
 def owner_team(file_path: str) -> str:
-    return OWNER_TEAM_BY_PATH.get(owner_path(file_path), "@spgi-project-atom-sandbox/mock-security-team")
+    return OWNER_TEAM_BY_PATH.get(owner_path(file_path), "@example-org/mock-security-team")
 
 
 def classifications(file_path: str) -> list[str]:
