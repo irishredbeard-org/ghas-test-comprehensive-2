@@ -16,13 +16,13 @@ Ownership is generated into `.github/CODEOWNERS` and duplicated into `fixtures.j
 
 | Path | Mock team |
 |------|-----------|
-| `/javascript/` | `@spgi-project-atom-sandbox/mock-frontend-web` |
-| `/typescript/` | `@spgi-project-atom-sandbox/mock-frontend-web` |
-| `/python/` | `@spgi-project-atom-sandbox/mock-backend-python` |
-| `/java/` | `@spgi-project-atom-sandbox/mock-services-java` |
-| `/csharp/` | `@spgi-project-atom-sandbox/mock-enterprise-dotnet` |
-| `/go/` | `@spgi-project-atom-sandbox/mock-infrastructure-go` |
-| `/.github/`, `/docs/`, fallback | `@spgi-project-atom-sandbox/mock-security-team` |
+| `/javascript/` | `@example-org/mock-frontend-web` |
+| `/typescript/` | `@example-org/mock-frontend-web` |
+| `/python/` | `@example-org/mock-backend-python` |
+| `/java/` | `@example-org/mock-services-java` |
+| `/csharp/` | `@example-org/mock-enterprise-dotnet` |
+| `/go/` | `@example-org/mock-infrastructure-go` |
+| `/.github/`, `/docs/`, fallback | `@example-org/mock-security-team` |
 
 ## Rule-Family Coverage
 
@@ -56,12 +56,12 @@ Expected owner routing by generated fixture count:
 
 | Owner path | Count | Mock team |
 |------------|------:|-----------|
-| `javascript` | 14 | `@spgi-project-atom-sandbox/mock-frontend-web` |
-| `typescript` | 13 | `@spgi-project-atom-sandbox/mock-frontend-web` |
-| `python` | 14 | `@spgi-project-atom-sandbox/mock-backend-python` |
-| `java` | 16 | `@spgi-project-atom-sandbox/mock-services-java` |
-| `csharp` | 13 | `@spgi-project-atom-sandbox/mock-enterprise-dotnet` |
-| `go` | 13 | `@spgi-project-atom-sandbox/mock-infrastructure-go` |
+| `javascript` | 14 | `@example-org/mock-frontend-web` |
+| `typescript` | 13 | `@example-org/mock-frontend-web` |
+| `python` | 14 | `@example-org/mock-backend-python` |
+| `java` | 16 | `@example-org/mock-services-java` |
+| `csharp` | 13 | `@example-org/mock-enterprise-dotnet` |
+| `go` | 13 | `@example-org/mock-infrastructure-go` |
 | **Total** | **83** | |
 
 ## Classification Coverage

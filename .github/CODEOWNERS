@@ -1,0 +1,26 @@
+# CODEOWNERS — mock team ownership for work-breakdown testing.
+# Teams live in the irishredbeard-org organization.
+
+# Frontend fixtures (JavaScript + TypeScript)
+/javascript/   @irishredbeard-org/mock-frontend-web
+/typescript/   @irishredbeard-org/mock-frontend-web
+
+# Backend fixtures (Python)
+/python/       @irishredbeard-org/mock-backend-python
+
+# Services fixtures (Java)
+/java/         @irishredbeard-org/mock-services-java
+
+# Infrastructure fixtures (Go)
+/go/           @irishredbeard-org/mock-infrastructure-go
+
+# Enterprise fixtures (C# / .NET)
+/csharp/       @irishredbeard-org/mock-enterprise-dotnet
+
+# Security config, automation, and cross-cutting docs
+/.github/      @irishredbeard-org/mock-security-team
+/scripts/      @irishredbeard-org/mock-security-team
+/docs/         @irishredbeard-org/mock-security-team
+
+# Default owner for everything else
+*              @irishredbeard-org/mock-security-team
